@@ -1,0 +1,2273 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-all-designed-elements-are-displayed-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "As a user of ngfp awareness application I need to make sure that all designed elements are displayed on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 686862334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1283472667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the element: \"Awareness header\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15731624
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1285996250
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-all-designed-elements-are-displayed-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user of ngfp awareness application I need to make sure that all designed elements are displayed on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 686387291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1474187417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the element: \"Refresh button\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28909833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1292073750
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-all-designed-elements-are-displayed-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "As a user of ngfp awareness application I need to make sure that all designed elements are displayed on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 671645125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1528039666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the element: \"Awareness events\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22277374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1303179791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 707031499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1268562666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"Plan\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15749083
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1284224292
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 675030665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341104332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"File\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15008416
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1296893916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 683213707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248195958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"Release\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16859458
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1312678708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 711054167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225495541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"Out\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17945334
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1313203207
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 698747457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1265445417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"Off\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14660583
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1261868041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 692746458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266834374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"On\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17491541
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1287720124
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-table-section-contains-designed-columns",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "As a user of ngfp awareness application I need to make sure that table section contains designed columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 667175707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1370489041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the element: \"Table header element\" with value \"In\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13171666
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1284367417
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-sdt-filtering-buttons-are-present-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "As a user of ngfp awareness application I need to make sure that SDT filtering buttons are present on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 675121958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1254150957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the element: \"STD button\" with value \"30m\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17286665
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1304267833
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-sdt-filtering-buttons-are-present-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "As a user of ngfp awareness application I need to make sure that SDT filtering buttons are present on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 666703875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341163000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the element: \"STD button\" with value \"2h\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15068749
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1288120083
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-sdt-filtering-buttons-are-present-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "As a user of ngfp awareness application I need to make sure that SDT filtering buttons are present on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 668706959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1298904916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the element: \"STD button\" with value \"6h\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15604874
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1284252666
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-sdt-filtering-buttons-are-present-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "As a user of ngfp awareness application I need to make sure that SDT filtering buttons are present on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703856082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1275834500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the element: \"STD button\" with value \"24h\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12937041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1295225583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-sdt-filtering-buttons-are-present-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "As a user of ngfp awareness application I need to make sure that SDT filtering buttons are present on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 683881041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1261438542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the element: \"STD button\" with value \"+1d\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14268041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1291981790
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-awareness-table-content-can-be-refreshed",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "As a user of ngfp awareness application I need to make sure that awareness table content can be refreshed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 713274833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1292078125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I hover the mouse over \"Refresh button\" element",
+            "match": {
+              "location": "src/step-definitions/hover.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64804791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the element: \"Refresh tooltip\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1389417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I click the \"Refresh button\" button",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31547041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "the element: \"Flights loader spinner\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1495167
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1290710708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-status-tiles-are-displayed-within-kanban-cards",
+        "keyword": "Scenario Outline",
+        "line": 57,
+        "name": "As a user of ngfp awareness application I need to make sure that status tiles are displayed within kanban cards",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 750368999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1236795874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "the element: \"Status tile\" with value \"OFP\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14779582
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1264974125
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-status-tiles-are-displayed-within-kanban-cards",
+        "keyword": "Scenario Outline",
+        "line": 58,
+        "name": "As a user of ngfp awareness application I need to make sure that status tiles are displayed within kanban cards",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 684148582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1270649582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "the element: \"Status tile\" with value \"TRIAL\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13321791
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1301738708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-status-tiles-are-displayed-within-kanban-cards",
+        "keyword": "Scenario Outline",
+        "line": 59,
+        "name": "As a user of ngfp awareness application I need to make sure that status tiles are displayed within kanban cards",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 682177208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1367899125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "the element: \"Status tile\" with value \"FILE\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15192915
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1294504583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-status-tiles-are-displayed-within-kanban-cards",
+        "keyword": "Scenario Outline",
+        "line": 60,
+        "name": "As a user of ngfp awareness application I need to make sure that status tiles are displayed within kanban cards",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 701404333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1245771334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "the element: \"Status tile\" with value \"BRIEF\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15281875
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1293785791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 73,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 697089707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1263247499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"Plan\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119142249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"Plan\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"Plan\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1162958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"Plan\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2203208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1290519791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 74,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 731187792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1269717291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"File\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115622707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"File\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2283000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"File\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1032499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"File\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1121207
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1288568166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 75,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 700997541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248060540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"Release\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114357417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"Release\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2249416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"Release\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1150999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"Release\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196416
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1275945208
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 76,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 678718291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1257658250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"Out\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116504042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"Out\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1681665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"Out\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1839292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"Out\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1101374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1291230499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 77,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 662713124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1237933999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"Off\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239947082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"Off\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2144375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"Off\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2611958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"Off\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1604250
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1285963292
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 78,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 662642833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266729333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"On\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110209208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"On\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2946167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"On\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"On\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1061916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1276474541
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-upon-clicking-status-filter-status-buttons-are-present",
+        "keyword": "Scenario Outline",
+        "line": 79,
+        "name": "As a user of ngfp awareness application I need to make sure that upon clicking status filter status buttons are present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 668262457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1446815583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the \"Filter\" button with parameter \"In\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112912458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the element: \"Status label\" with value \"In\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3112833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the element: \"Yellow status filter\" with value \"In\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1161832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the element: \"Red status filter\" with value \"In\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1296793375
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-search-function-returns-requested-kanban-element",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "As a user of ngfp awareness application I need to make sure that search function returns requested kanban element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 700889457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 83,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1244660042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I fill in the \"Search\" input with \"red_status\"",
+            "match": {
+              "location": "src/step-definitions/form.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52891624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "the element: \"Kanban card\" with value \"red_status\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4888584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the element: \"Kanban card\" with value \"yellow_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 933415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "the element: \"Kanban card\" with value \"green_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 932707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "the element: \"Kanban card\" with value \"white_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1059999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1295820334
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 81
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-\"yellow-status\"-filter-function-returns-requested-kanban-elements",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "As a user of ngfp awareness application I need to make sure that \"yellow status\" filter function returns requested kanban elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 673433374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 92,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1229768750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 93,
+            "name": "I click the \"Filter\" button with parameter \"Plan\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117646499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I click the \"Yellow status filter\" button with parameter \"Plan\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343804041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "the \"Yellow status filter\" \"aria-selected\" attribute should contain the text \"true\"",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-value.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004405083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "the element: \"Kanban card\" with value \"yellow_status\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7379333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "the element: \"Kanban card\" with value \"red_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2606958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "the element: \"Kanban card\" with value \"green_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2163042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "the element: \"Kanban card\" with value \"white_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4279790
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 277778124
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ngfp-awareness-page-content-test;as-a-user-of-ngfp-awareness-application-i-need-to-make-sure-that-\"red-status\"-filter-function-returns-requested-kanban-elements",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "As a user of ngfp awareness application I need to make sure that \"red status\" filter function returns requested kanban elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 658106500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 103,
+            "name": "I am on the \"awareness\" page",
+            "match": {
+              "location": "src/step-definitions/navigation.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1317987667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 104,
+            "name": "I click the \"Filter\" button with parameter \"Plan\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113725582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "I click the \"Red status filter\" button with parameter \"Plan\"",
+            "match": {
+              "location": "src/step-definitions/click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356547125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "the \"Red status filter\" \"aria-selected\" attribute should contain the text \"true\"",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-value.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002185916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "the element: \"Kanban card\" with value \"red_status\" is visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4464874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "the element: \"Kanban card\" with value \"yellow_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5618875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "the element: \"Kanban card\" with value \"green_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2802542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "the element: \"Kanban card\" with value \"white_status\" is not visible on the page",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3654791
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 281983124
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 101
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ngfp-awareness-page-content-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ngfp-awareness page content test",
+    "tags": [],
+    "uri": "src/features/awarenessPage.feature"
+  }
+]

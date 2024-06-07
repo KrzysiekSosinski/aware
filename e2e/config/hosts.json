@@ -1,0 +1,4 @@
+{
+  "ci-run": "http://ngfp-awareness:8083",
+  "local": "http://localhost:4203"
+}

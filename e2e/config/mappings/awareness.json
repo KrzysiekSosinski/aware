@@ -1,0 +1,16 @@
+{
+  "Awareness header": "//ngfp-awareness//h3",
+  "Refresh button": "//button/mat-icon[contains(text(), 'refresh')]",
+  "Awareness events": "//ngfp-awareness-entry//ngfp-awareness-context-events",
+  "Table header element": "//span[contains(text(), '{{value}}')]",
+  "Refresh tooltip": "//div[mat-tooltip-component]",
+  "Flights loader spinner": "//ngfp-flights-loader/mat-spinner",
+  "STD button": "//div//span[contains(text(), 'SDT:')]/following-sibling::button//span[contains(text(),'{{value}}')]",
+  "Status tile": "//ngfp-kanban-card//span[contains(text(),'{{value}}')]",
+  "Filter": "//mat-panel-title//div//span[contains(text(), '{{value}}')]/following-sibling::mat-icon",
+  "Status label": "//mat-panel-title//div//span[contains(text(), '{{value}}')]/ancestor::mat-expansion-panel//span[contains(text(), 'Status:')]",
+  "Yellow status filter": "//mat-panel-title//div//span[contains(text(), '{{value}}')]/ancestor::div//mat-chip-option[@id='mat-mdc-chip-2']",
+  "Red status filter": "//mat-panel-title//div//span[contains(text(), '{{value}}')]/ancestor::div//mat-chip-option[@id='mat-mdc-chip-2']",
+  "Search": "//ngfp-awareness-search//input[@id='mat-input-0']",
+  "Kanban card": "//ngfp-kanban-card//span[contains(text(), '{{value}}')]"
+}
